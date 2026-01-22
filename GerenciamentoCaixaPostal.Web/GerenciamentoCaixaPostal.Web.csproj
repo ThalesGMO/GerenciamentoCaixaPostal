@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\GerenciamentoCaixaPostal.Shared\Data\GerenciamentoCaixaPostal.Shared.Data.csproj" />
+    <ProjectReference Include="..\GerenciamentoCaixaPostal.Shared\Core\GerenciamentoCaixaPostal.Shared.Core.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
