@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj": {}
+    "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj": {
+    "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj",
+        "projectUniqueName": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj",
         "projectName": "GerenciamentoCaixaPostal.Shared.Core",
-        "projectPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj",
+        "projectPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj",
         "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\obj\\",
+        "outputPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -344,14 +344,14 @@
         }
       }
     },
-    "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj": {
+    "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj",
+        "projectUniqueName": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj",
         "projectName": "GerenciamentoCaixaPostal.Shared.Data",
-        "projectPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj",
+        "projectPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj",
         "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\obj\\",
+        "outputPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -373,8 +373,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj": {
-                "projectPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj"
+              "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj": {
+                "projectPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj"
               }
             }
           }
@@ -394,6 +394,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -688,14 +698,14 @@
         }
       }
     },
-    "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj": {
+    "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj",
+        "projectUniqueName": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj",
         "projectName": "GerenciamentoCaixaPostal.Web",
-        "projectPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj",
+        "projectPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\GerenciamentoCaixaPostal.Web.csproj",
         "packagesPath": "C:\\Users\\thale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\obj\\",
+        "outputPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -717,11 +727,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj": {
-                "projectPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj"
+              "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj": {
+                "projectPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Core\\GerenciamentoCaixaPostal.Shared.Core.csproj"
               },
-              "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj": {
-                "projectPath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj"
+              "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj": {
+                "projectPath": "C:\\Sistemas\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj"
               }
             }
           }
