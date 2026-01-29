@@ -1,3 +1,5 @@
+using GerenciamentoCaixaPostal.Shared.Core.Models;
+
 namespace GerenciamentoCaixaPostal.Core.Shared.Models;
 
 public class Cliente
@@ -7,4 +9,6 @@ public class Cliente
     public string Nome { get; private set; }
     public string Email { get; private set; }
     public string Telefone { get; private set; }
+    
+    public virtual ClienteStatus ClienteStatus { get; set; }
 }

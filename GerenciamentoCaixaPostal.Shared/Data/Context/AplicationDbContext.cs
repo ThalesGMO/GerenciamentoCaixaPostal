@@ -1,9 +1,3 @@
-using GerenciamentoCaixaPostal.Core.Shared.Models;
-using GerenciamentoCaixaPostal.Shared.Core.Models;
-using GerenciamentoCaixaPostal.Shared.Core.Settings;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-
 namespace GerenciamentoCaixaPostal.Shared.Data.Context;
 
 public class AplicationDbContext(AppSettings appSettings, ILogger<AplicationDbContext> logWriter) : BaseDbContext(appSettings)
@@ -17,7 +11,7 @@ public class AplicationDbContext(AppSettings appSettings, ILogger<AplicationDbCo
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
+        modelBuilder.ApplyConfiguration(new ClienteConfiguration());
         base.OnModelCreating(modelBuilder);
     }
 }
