@@ -6,6 +6,6 @@ public class CaixaStatus
 {
     public int Id { get; }
     public string Nome { get; private set; }
-    
+
     public virtual IEnumerable<CaixaPostal> CaixasPostais { get; set; }
 }

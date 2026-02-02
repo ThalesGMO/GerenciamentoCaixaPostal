@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LyOUlvn3vh8=",
+  "dgSpecHash": "Ba0dKUGcB8s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\thale\\OneDrive\\Desktop\\Projetinho MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj",
+  "projectFilePath": "C:\\Users\\thale\\Desktop\\Projetos MVC\\GerenciamentoCaixaPostal\\GerenciamentoCaixaPostal.Shared\\Data\\GerenciamentoCaixaPostal.Shared.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thale\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.0\\microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
     "C:\\Users\\thale\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.0\\microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
