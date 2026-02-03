@@ -1,4 +1,5 @@
 using GerenciamentoCaixaPostal.Core.Shared.Models;
+using GerenciamentoCaixaPostal.Shared.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

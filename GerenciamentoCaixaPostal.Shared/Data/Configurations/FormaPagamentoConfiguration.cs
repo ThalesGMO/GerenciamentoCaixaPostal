@@ -8,6 +8,9 @@ public class FormaPagamentoConfiguration : IEntityTypeConfiguration<FormaPagamen
 {
     public void Configure(EntityTypeBuilder<FormaPagamento> builder)
     {
-        
+        builder.ToTable("FormasPagamentos");
+        builder.HasKey(x => x.Id);
+        builder.Property(x => x.Id).IsRequired();
+        builder.Property(x => x.Nome).IsRequired();
     }
 }

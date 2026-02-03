@@ -1,3 +1,10 @@
+using GerenciamentoCaixaPostal.Core.Shared.Models;
+using GerenciamentoCaixaPostal.Shared.Core.Models;
+using GerenciamentoCaixaPostal.Shared.Core.Settings;
+using GerenciamentoCaixaPostal.Shared.Data.Configurations;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+
 namespace GerenciamentoCaixaPostal.Shared.Data.Context;
 
 public class AplicationDbContext(AppSettings appSettings, ILogger<AplicationDbContext> logWriter) : BaseDbContext(appSettings)
