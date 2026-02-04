@@ -13,4 +13,5 @@ public class Cobranca
 
     public virtual CobrancaStatus CobrancaStatus { get; set; }
     public virtual CaixaPostal CaixaPostal { get; set; }
+    public ICollection<HistoricoPagamento> historicoPagamentos { get; set; }
 }

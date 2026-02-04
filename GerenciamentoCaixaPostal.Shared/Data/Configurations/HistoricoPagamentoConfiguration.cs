@@ -13,5 +13,16 @@ public class HistoricoPagamentoConfiguration : IEntityTypeConfiguration<Historic
         builder.Property(x => x.Id).ValueGeneratedOnAdd().IsRequired();
         builder.Property(x => x.IdFormaPagamento).IsRequired();
         builder.Property(x => x.IdCobranca).IsRequired();
+        builder.Property(x => x.DataPagamento).IsRequired();
+        builder.Property(x => x.ValorPago).IsRequired();
+        builder.Property(x => x.Observacao);
+
+        builder.HasOne(x => x.Cobranca)
+            .WithMany(x => x.historicoPagamentos)
+            .HasForeignKey(x => x.IdCobranca);
+        
+        builder.HasOne(x => x.FormaPagamento)
+            .WithMany(x => x.historicoPagamentos)
+            .HasForeignKey(x => x.IdFormaPagamento);
     }
 }

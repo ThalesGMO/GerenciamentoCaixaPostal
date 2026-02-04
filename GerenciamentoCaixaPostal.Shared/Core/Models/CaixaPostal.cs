@@ -18,4 +18,5 @@ public class CaixaPostal
     public virtual Socio Socio { get; set; }
     public virtual Cliente Cliente { get; set; }
     public virtual CaixaStatus CaixaStatus { get; set; }
+    public virtual ICollection<Cobranca> Cobrancas {get; set;}
 }

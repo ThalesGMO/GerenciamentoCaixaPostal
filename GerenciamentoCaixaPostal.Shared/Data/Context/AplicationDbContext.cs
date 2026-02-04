@@ -19,6 +19,13 @@ public class AplicationDbContext(AppSettings appSettings, ILogger<AplicationDbCo
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new ClienteConfiguration());
+        modelBuilder.ApplyConfiguration(new ClienteStatusConfiguration());
+        modelBuilder.ApplyConfiguration(new CaixaPostalConfiguration());
+        modelBuilder.ApplyConfiguration(new CaixaStatusConfiguration());
+        modelBuilder.ApplyConfiguration(new CobrancaStatusConfiguration());
+        modelBuilder.ApplyConfiguration(new FormaPagamentoConfiguration());
+        modelBuilder.ApplyConfiguration(new HistoricoPagamentoConfiguration());
+        modelBuilder.ApplyConfiguration(new SocioConfiguration());
         base.OnModelCreating(modelBuilder);
     }
 }
