@@ -24,6 +24,5 @@ public class CobrancaConfiguration : IEntityTypeConfiguration<Cobranca>
         builder.HasOne(x => x.CobrancaStatus)
             .WithMany(x => x.Cobrancas)
             .HasForeignKey(x => x.IdCobrancaStatus);
-
     }
 }

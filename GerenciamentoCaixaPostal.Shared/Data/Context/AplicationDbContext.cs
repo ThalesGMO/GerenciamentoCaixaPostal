@@ -10,11 +10,14 @@ namespace GerenciamentoCaixaPostal.Shared.Data.Context;
 public class AplicationDbContext(AppSettings appSettings, ILogger<AplicationDbContext> logWriter) : BaseDbContext(appSettings)
 {
     public DbSet<ClienteStatus> ClientesStatus { get; set; }
+    public DbSet<CaixaPostal> CaixasPostais { get; set; }
     public DbSet<Cliente> Clientes { get; set; }
     public DbSet<CaixaStatus> CaixasStatus { get; set; }
     public DbSet<CobrancaStatus> CobrancasStatus { get; set; }
-    public DbSet<FormaPagamento> FormasPagamentos { get; set; }
+    public DbSet<FormaPagamento> FormasPagamento { get; set; }
     public DbSet<Socio> Socios { get; set; }
+    public DbSet<Cobranca> Cobrancas { get; set; }
+    public DbSet<HistoricoPagamento> HistoricoPagamentos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -26,6 +29,7 @@ public class AplicationDbContext(AppSettings appSettings, ILogger<AplicationDbCo
         modelBuilder.ApplyConfiguration(new FormaPagamentoConfiguration());
         modelBuilder.ApplyConfiguration(new HistoricoPagamentoConfiguration());
         modelBuilder.ApplyConfiguration(new SocioConfiguration());
+        modelBuilder.ApplyConfiguration(new CobrancaConfiguration());
         base.OnModelCreating(modelBuilder);
     }
 }
